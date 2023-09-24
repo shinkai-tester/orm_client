@@ -16,5 +16,5 @@ setup(
     author='Aleksandra Klimantova',
     author_email='',
     install_requires=REQUIRES,
-    description='Orm_client wit Allure and Logger'
+    description='ORM client with Allure and Logger'
 )
