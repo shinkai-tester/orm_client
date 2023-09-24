@@ -1,9 +1,9 @@
-from distutils.core import setup
+from setuptools import setup
 
 REQUIRES = [
-    'structlog',
-    'allure-pytest',
-    'sqlalchemy'
+    'structlog>=23.1.0',
+    'allure-pytest>=2.13.2',
+    'sqlalchemy==1.4.46'
 ]
 
 setup(
