@@ -3,8 +3,7 @@ from distutils.core import setup
 REQUIRES = [
     'structlog',
     'allure-pytest',
-    'sqlalchemy',
-    'records'
+    'sqlalchemy'
 ]
 
 setup(
